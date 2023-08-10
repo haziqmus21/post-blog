@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+.wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: Montserrat;
+}
+
+.form_wrapper {
+  background-color: lightblue;
+  width: 35vw;
+  padding: 2rem;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.form_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  font-family: Roboto;
+}
+
+.form_inner > label {
+  font-size: 1.1rem;
+}
+
+.form_inner > input {
+  width: 12rem;
+  padding: 6px 10px;
+  border-radius: 2px;
+  border: 0;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+.form_inner > input:focus {
+  outline: 2px solid rgb(92, 92, 168) !important;
+}
+.submit > button {
+  /* width: 5rem; */
+  color: white;
+  font-family: Roboto;
+  background-color: black;
+  padding: 7px 14px;
+  font-size: 1rem;
+  border-radius: 3px;
+  box-shadow: 0 5px 10px black;
+}
+.submit > button:hover {
+  cursor: pointer;
+}
+.submit > button:active {
+  outline: none;
+  border: 0;
+  transform: scaleX(0.97);
+}
+.data_wrapper {
+  width: 90vw;
+  margin-bottom: 2rem;
+}

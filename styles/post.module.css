@@ -1,0 +1,50 @@
+.data_item {
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 2rem 6rem;
+  box-shadow: 0 3px 10px 1px black;
+  color: black;
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: xx-large;
+  margin: 0;
+  font-family: Montserrat;
+  margin-bottom: 0.5rem;
+}
+
+.author,
+.date {
+  font-family: Roboto;
+  margin: 2rem;
+}
+.date > i,
+.author > i {
+  margin-right: 5px !important;
+}
+
+.description {
+  margin-top: 1.5rem;
+  font-family: Roboto;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+}
+
+.data_item > div {
+  position: relative;
+}
+
+.edit {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  font-size: 1.35rem;
+}
+
+.author,
+.date,
+.edit {
+  cursor: pointer;
+}
